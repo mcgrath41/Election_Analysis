@@ -31,7 +31,7 @@ The analysis of the election show that:
 
 ## Election Audit Summary
 
-The election audit was completed by writing python script in Microsoft Visual Studio Code. The biggest advantage of using these sources is that we were able to write a sript that is not project-specific. In other words, we can run the same audit for any election in any county with minimal effort or time because the code would only need a few modifications. For example, with a new CSV file with election results we could simply:
+The election audit was completed by writing python script in Microsoft Visual Studio Code. The biggest advantage of using these sources is that we were able to write a sript that is not project-specific. In other words, we can run the same audit for any election in any county with minimal effort or time because the code would only need a few modifications. For example, with a new CSV file containing election results we could simply:
 1.  Verify or update the name of the file in the `file_to_load` line (9).
 2.  Verify or update where the candidates & county names are located in the file for the `candidate_name` and the `county_name` lines in the script (47 & 50).
 
