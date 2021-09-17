@@ -35,4 +35,4 @@ The election audit was completed by writing python script in Microsoft Visual St
 1.  Verify or update the name of the file in the `file_to_load` line (9).
 2.  Verify or update where the candidates & county names are located in the file for the `candidate_name` and the `county_name` lines in the script (47 & 50).
 
-Finally, if the new CSV file contains other election data (e.g. demographic), we could simply replace the `county_name` lines in the code with a new measure (e.g. age, gender, etc.) by updating lines 22 & 50 (to define and locate the new measure) and replace 'county_name' with the new defined meaasure in the for loop (beginning in 67).  
+Finally, if the new CSV file contains other election data (e.g. demographic), we could simply replace the `county_name` lines in the code with a new measure (e.g. age, gender, etc.) by updating lines 22 & 50 (to define and locate the new measure) and replace `county_name` with the new defined meaasure in the `for` loop (beginning in 67).  
